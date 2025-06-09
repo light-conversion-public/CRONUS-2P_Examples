@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """c2pcontrol - CRONUS-2P remote control Python API.
 
-This example shows how to get the status of a CRONUS-2P laser system.
+This example shows how to get the status of a CRONUS-2P laser.
 
 Copyright 2020-2023 Light Conversion
 Contact: support@lightcon.com
