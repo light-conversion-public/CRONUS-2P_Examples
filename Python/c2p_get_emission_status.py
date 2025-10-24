@@ -73,7 +73,7 @@ while True:
         if mode in ['Run', 'Standby']:
             emission = True
 
-        shutter_open = c2p.get_shutter_states().any()
+        shutter_open = any(c2p.get_shutter_states())
 
         time_str = datetime.now().strftime('%Y.%m.%d %H:%M:%S')
         if not emission:
